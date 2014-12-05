@@ -1,0 +1,1 @@
+Time::DATE_FORMATS[:month_day_year] = ->(time) { time.strftime("%B #{time.day.ordinalize}, %Y") }

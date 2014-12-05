@@ -1,0 +1,13 @@
+<header>
+  <h1><%= @post.title %></h1>
+  <span><%= @post.author_name %></span>
+  <span><%= @post.created_at.to_formatted_s(:month_day_year) %></span>
+</header>
+
+<article>
+  <p><%= @post.main_content %></p>
+</article>
+
+<footer>
+  <p></p>
+</footer>
